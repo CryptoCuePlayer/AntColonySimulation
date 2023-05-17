@@ -1,0 +1,15 @@
+    }
+        }
+
+        public void eat() {
+            energy += 3;
+        }
+
+        public void reproduce() {
+            if (energy >= 10) {
+                energy -= 10;
+                Ant babyAnt = new Ant();
+                System.out.println("Муравей размножился!");
+            }
+        }
+    }
